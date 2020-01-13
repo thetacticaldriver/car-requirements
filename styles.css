@@ -1,0 +1,252 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.jumbotron {
+    margin-bottom: 0rem !important;
+}
+
+.jumbotron h2 em {
+    color: #dc3545;
+}
+
+.jumbotron h3 em {
+    color: #628080;
+}
+
+div#hero {
+    text-align: center;
+}
+
+.main-body {
+    border: 0.7rem solid #dc3545;
+    border-radius: 6px;
+    padding: 0.8rem;
+    max-width: 700px;
+    width: 95%;
+    margin: 20px auto;
+    font-family: Helvetica, 'Lucida Sans', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.date {
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.quote {
+    border-left: 5px solid #dc3545;
+    padding-left: 5px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1f3f2f;
+    font-size: 2.0rem;
+}
+
+p {
+    color: #1f3f2f;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+a.link {
+    text-decoration: none !important;
+    color: #dc3545 !important;
+}
+
+hr.hr-div {
+    margin-top: 3rem;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#red-divider {
+    display: inline-block;
+    background-color: #dc3545;
+    padding: 2rem 1rem;
+    color: #e9ecef;
+}
+
+#hero-divider {
+    display: inline-block;
+    background-color: #B01AA7;
+    padding: 2rem 1rem;
+    color: #e9ecef;
+}
+
+#calcoast-divider {
+    display: inline-block;
+    background-color: #08ADEF;
+    padding: 2rem 0rem;
+    color: #e9ecef;
+}
+
+#hero-sub-divider {
+    display: inline-block;
+    background-color: #00B5E2;
+    padding: 2rem 0rem;
+    color: #e9ecef;
+}
+
+#lyft-divider {
+    display: inline-block;
+    background-color: #EA0A8C;
+    padding: 2rem 0rem;
+    color: #e9ecef;
+}
+
+#uber-divider {
+    display: inline-block;
+    background-color: #000;
+    padding: 2rem 0rem;
+    color: #e9ecef;
+}
+
+.site-section {
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.dark-section {
+    background-color: #e9ecef;
+}
+
+.dark-section p {
+    text-align: justify;
+}
+
+#why .item i {
+    font-size: 42px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+span.green {
+    color: #28a745;
+}
+
+span.purple {
+    color: #B01AA7;
+    font-weight: bold;
+}
+
+span.outline {
+    padding: 2px 2px;
+    color: #628080;
+    background-color: #fff;
+    font-weight: bold;
+    border: 1px solid #628080;
+    border-radius: 5px;
+}
+
+a#btn-getaround {
+    background-color: #B01AA7 !important;
+    border-color: #B01AA7 !important;
+}
+
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #282d32;
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+a#dev-link {
+    color: coral;
+}
